@@ -6,8 +6,8 @@ from telethon import TelegramClient, events
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID", 0))
-API_HASH = os.getenv("API_HASH", "")
+API_ID = int(os.getenv("20308314", 0))
+API_HASH = os.getenv("5a5685f670783ffb4c5ac95317160c36", "")
 SOURCE_CHANNEL_ID = 0
 TARGET_CHANNEL_ID = 0
 
